@@ -1,0 +1,21 @@
+body{
+  background: #141414;
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* in all the row of movie-app class*/
+.movie_app > .row {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  overflow-x: auto;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  height: 300px;
+}
+
+.row img {
+  width: 200px;
+  height: auto;
+}
